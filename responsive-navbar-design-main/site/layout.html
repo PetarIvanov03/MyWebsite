@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+    <header>
+        <div class = "navbar">
+          <div class = "logo">
+            <a  href="">Web Devs Creative</a>
+          </div>
+            <ul class = "links">
+                <li>
+                    <a asp-area="" asp-controller="Admin" asp-action="AllWorkers">Начало</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Admin" asp-action="AllWorkers">Услуги</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Admin" asp-action="AllWorkers">За нас</a>
+                </li>
+            </ul>
+            <a href="" class = "action_btn">Направи заявка</a>
+        </div>
+      </header>
+
+
+    
+
+    <footer class="footer">
+            <div class="container-footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Контакти</h4>
+                        <ul>
+                            <li><a>089 978 0302</a></li>
+                            <li><a>089 705 9787</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>E-mail</h4>
+                        <ul>
+                            <li><a href="#" id="hover">randomemail@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Адрес</h4>
+                        <ul>
+                            <li><a>Ямбол, 8600</a></li>
+                            <li><a>ул. Жорж Папазов 14</a></li>
+                            <li><a>етаж 4, офис 405</a></li>
+                            <h4></h4>
+                            <li><a>Yambol, 8600</a></li>
+                            <li><a>str. Zhorzh Papazov 14</a></li>
+                            <li><a>floor 4, office 405</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Работно време</h4>
+                        <ul>
+                            <li><a><b>Понеделник: </b>9:00 – 17:30</a></li>
+                            <li><a><b>Вторник: </b>9:00 – 17:30</a></li>
+                            <li><a><b>Сряда: </b>9:00 – 17:30</a></li>
+                            <li><a><b>Четвъртък: </b>9:00 – 17:30</a></li>
+                            <li><a><b>Петък: </b>9:00 – 17:30</a></li>
+                            <li><a><b>Събота: </b>затворено / Closed</a></li>
+                            <li><a><b>Неделя: </b>затворено / Closed</a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="footer-col-b">
+                        <h4>Локация</h4>
+                        <iframe class="iframe-bot" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179220.51198108657!2d26.434818141131935!3d42.45840060871002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a63439ba213c3b%3A0xa2b4d99709a42c89!2smm%20-%20Maria%20Markova!5e0!3m2!1sen!2sbg!4v1699106329011!5m2!1sen!2sbg">
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
